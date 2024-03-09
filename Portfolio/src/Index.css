@@ -13,19 +13,153 @@ body{
 }
 
 #NavList li{
-    margin:0vw 4.5vw 0vw 4.5vw;
-    height:40px;
+    margin:0vw 3vw 0vw 3vw;
+    height:2.8vw;
     width:auto;
+    text-transform: uppercase;
+    margin-left : 2vw;
+    padding: 0.3vw;
 }
 
 #NavList li:hover{
-    box-shadow: 0px 0px 10px 10px rgb(58, 4, 119);
+    box-shadow: 0px 0px 1.5vw 1.5vw rgb(58, 4, 119);
 }
 
 #NavList li:active{
-    box-shadow: 0px 0px 10px 10px rgb(158, 3, 15);
+    box-shadow: 0px 0px 1.5vw 1.5vw rgb(158, 3, 15);
+}
+
+.container{
+    width: 70vw;
+    margin:8vw 8vw 8vw 2vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container h1{
+    text-align: center;  
+    border-style:solid;
+    border-bottom-color:blueviolet;
+    border-width: 0vw 0vw 1vw 0vw;
+    border-radius: 20vw ;
+    margin-bottom:7vw;
+    margin-left:18vw;
+}
+
+.container_slider{
+    position: relative;
+    width:100%;
+}
+
+#About_slider{
+    width: 50vw;
+    position:absolute;
+    margin-left:20vw;
+    z-index:-1;
+    top:30%;
+}
+  
+.circle{
+    position:absolute;
+    display:flex;
+    height:1vw;
+    width:1vw;
+    border-radius: 40vw;
+    background-color: cyan;
+    top:50%;
+    z-index: 1;
+}
+
+.circle:nth-of-type(1) {
+    right: 27.4%;
+    top:56%;
+  }
+  
+  .circle:nth-of-type(2) {
+    left: 45%;
+    top:56%;
+  }
+  
+  .circle:nth-of-type(3) {
+    right: 79%;
+    top:56%;
+  }
+
+  .circle:nth-of-type(4){
+    height:1vw;
+    width:2vw;
+    animation: anime1 4s linear infinite alternate;
+}
+
+@keyframes anime1{
+
+    0%{
+        right: 27.4%;
+        top:56%;
+        background-color:blueviolet;
+    }
+
+    50%{
+        background-color:white;
+    }
+
+    100%{
+        right: 78%;
+        top:56%;
+        background-color:brown;
+    }
+}
+  
+.arrow{
+    position:absolute;
+}
+
+.arrow:nth-of-type(1){
+    left:19.3%;
+}
+
+.arrow:nth-of-type(2){
+    left:44.35%;    
+}
+
+.arrow:nth-of-type(3){
+    left:71%;
+
+}
+
+.card_container{
+    position: relative;
+    width: 100%;
+}
+
+.card_container div{
+  position: absolute;
+  width: 10vw;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #333;
+  color: cyan;
+  border-radius: 2vw;
+  text-align:center;
+  padding: 2vw;
+  margin: 2vw;
+  margin-top:2.5vw;
+  display: inline-block;
+  vertical-align: top;
+  outline-color: cyan;
+  outline-style: solid;
+  outline-offset: 0.5vw;
+}
+
+.card_container div:nth-of-type(1)
+{
+    right:18.5%;
+}
+.card_container div:nth-of-type(2)
+{
+    right:45%;
+}
+.card_container div:nth-of-type(3)
+{
+    right:70%;
 }
 
 
-
-  
