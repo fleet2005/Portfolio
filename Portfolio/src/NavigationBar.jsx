@@ -7,20 +7,19 @@ function NavigationBar()
    
     function refresh()
     {
-        location.reload();
+        window.location.reload(true);
     }
 
     return(
 
         <>   
-
-            <ul id="NavList">
-                <li><img src={homeIcon} style={{ marginRight: "0vw", marginTop: "-0.5vw", marginLeft : "-0vw", width:"4vw", height:"4vw"}} /></li>
+            <ul id="NavList" style={{backgroundColor:"black", opacity:"0.8"}}>
+                <li><img src={homeIcon} style={{ marginRight: "auto", marginTop: "-0.5vw", marginLeft : "auto", width:"4vw", height:"4vw"}} /></li>
                 <li>About</li>
                 <li>Projects</li>
-                <li>Skills</li>
+                <li> <a href={"#skillSection"} style = {{textDecoration:"none", color:"white", transition: ""}}>Skills</a></li>
                 <li>Contact</li>
-                <li>Extras</li>
+                <li>Links</li>
                 <li onClick={refresh} style={{ marginRight: "4vw", marginTop :"-0.5vw" }}><img src={refreshIcon} style= {{width:"3.5vw", height:"3.5vw"}}/></li>
             </ul>
 
