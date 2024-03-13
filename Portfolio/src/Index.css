@@ -197,3 +197,37 @@ body{
 html{
     scroll-behavior: smooth;
 }
+
+.label{
+    color:rgb(227,224,231);
+    font-size:2vw;
+}
+
+.input{
+    background-color: rgb(58,73,86);
+    border-radius:0.5vw;
+    height:2vw;
+    width:20vw;
+    text-align: center;
+    color:whitesmoke;
+    font-size:medium;
+    text-wrap: wrap;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif
+}
+
+.input:nth-of-type(3){
+    height:5vw;
+}
+
+.submit{
+    color:white;
+    background-color: black;
+    padding:1vw;
+    padding-bottom: 2vw;
+    outline-style: solid;
+    outline-offset: 0.2vw;
+    height:0.4vw;
+    outline-color: white;
+    vertical-align: middle;
+}
