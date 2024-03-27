@@ -8,7 +8,7 @@ function About_slider()
     return(
 
         <>
-        <div class="container_slider">
+        <div class="container_slider" id="aboutSliderSection">
             <hr id="About_slider"/>
             <div class="circle"></div>
             <div class="circle"></div>

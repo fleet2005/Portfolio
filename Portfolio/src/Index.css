@@ -1,17 +1,22 @@
+
 body{
     cursor: url('C:\Users\91824\Desktop\Portfolio\Portfolio\src\assets\cursor-icon.png'),pointer;
     background-color: rgb(0, 0, 0);
+    background-size: auto;
     color:#ffffff;
     font-size: 2.3vw;
 }
+
 
 #NavList{
     display: inline-flex;
     list-style-type:none;
     position:sticky;
     top:0;
+    animation: fadeIn 2s ease-in;
     z-index: 1000;
 }
+
 
 #NavList li{
     margin:0vw 3vw 0vw 3vw;
@@ -23,19 +28,24 @@ body{
     z-index: 1000;
 }
 
+
 #NavList li:hover{
     box-shadow: 0px 0px 1.5vw 1.5vw rgb(58, 4, 119);
 }
+
 
 #NavList li:active{
     box-shadow: 0px 0px 1.5vw 1.5vw rgb(158, 3, 15);
 }
 
+
 .container{
     width: 70vw;
     margin:8vw 8vw 8vw 2vw;
     font-family: 'Courier New', Courier, monospace;
+    animation: fadeIn 3s ease-in;
 }
+
 
 .container h1{
     text-align: center;  
@@ -47,10 +57,12 @@ body{
     margin-left:18vw;
 }
 
+
 .container_slider{
     position: relative;
     width:100%;
 }
+
 
 #About_slider{
     width: 50vw;
@@ -59,7 +71,7 @@ body{
     z-index:-1;
     top:30%;
 }
-  
+ 
 .circle{
     position:absolute;
     display:flex;
@@ -71,20 +83,22 @@ body{
     z-index: 1;
 }
 
+
 .circle:nth-of-type(1) {
     right: 27.4%;
     top:56%;
   }
-  
+ 
   .circle:nth-of-type(2) {
     left: 45%;
     top:56%;
   }
-  
+ 
   .circle:nth-of-type(3) {
     right: 79%;
     top:56%;
   }
+
 
   .circle:nth-of-type(4){
     height:1vw;
@@ -92,7 +106,9 @@ body{
     animation: anime1 4s linear infinite alternate;
 }
 
+
 @keyframes anime1{
+
 
     0%{
         right: 27.4%;
@@ -100,9 +116,11 @@ body{
         background-color:blueviolet;
     }
 
+
     50%{
         background-color:white;
     }
+
 
     100%{
         right: 78%;
@@ -110,28 +128,32 @@ body{
         background-color:brown;
     }
 }
-  
+ 
 .arrow{
     position:absolute;
 }
+
 
 .arrow:nth-of-type(1){
     left:19.3%;
 }
 
+
 .arrow:nth-of-type(2){
     left:44.35%;    
 }
 
+
 .arrow:nth-of-type(3){
     left:71%;
-
 }
+
 
 .card_container{
     position: relative;
     width: 100%;
 }
+
 
 .card_container div{
   position: absolute;
@@ -151,6 +173,7 @@ body{
   outline-offset: 0.5vw;
 }
 
+
 .card_container div:nth-of-type(1)
 {
     right:18.5%;
@@ -164,12 +187,13 @@ body{
     right:70%;
 }
 
+
 .grid-container {
     margin-top:4vw;
     width:50vw;
     height:20vw;
     display: grid;
-    grid-template-columns: repeat(6, auto); 
+    grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(2, auto);
     background-color: black;
     padding:2vw;
@@ -177,6 +201,7 @@ body{
     margin-left:auto;
     margin-right:33vw;
     }
+
 
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
@@ -188,46 +213,28 @@ body{
     outline-offset: 0.3vw;
     padding:-4vw;
     border-radius: 0.5vw;
-    
+   
 }
 .grid-item:hover{
     box-shadow: 0px 0px 0.4vw 0.2vw cyan;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
 
-.label{
-    color:rgb(227,224,231);
-    font-size:2vw;
-}
 
-.input{
-    background-color: rgb(58,73,86);
-    border-radius:0.5vw;
-    height:2vw;
-    width:20vw;
-    text-align: center;
-    color:whitesmoke;
-    font-size:medium;
-    text-wrap: wrap;
-    text-transform: capitalize;
-    font-family:'Times New Roman', Times, serif
-}
-
-.input:nth-of-type(3){
-    height:5vw;
-}
-
-.submit{
-    color:white;
-    background-color: black;
-    padding:1vw;
-    padding-bottom: 2vw;
-    outline-style: solid;
-    outline-offset: 0.2vw;
-    height:0.4vw;
-    outline-color: white;
-    vertical-align: middle;
-}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+ 
+  .fade-in {
+    animation: fadeIn 1s ease-in;
+  }
+ 
