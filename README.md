@@ -1,4 +1,4 @@
-Portfolio website where I have linked all my projects.
+Portfolio website where I have linked all my projects. My first-ever website.
 
 Made with ReactJS, HTML5, CSS3 and JS.
 
