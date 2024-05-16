@@ -14,7 +14,7 @@ function NavigationBar() {
         <ul id="NavList" style={{ backgroundColor: "black", opacity: "0.8", position: "sticky", top:"0"}}>
             <li> <a href={"#"} style={{ textDecoration: "none", color: "white", transition: "" }}><img src={homeIcon} style={{ marginRight: "auto", marginTop: "-0.5vw", marginLeft: "auto", width: "4vw", height: "4vw" }} /></a></li>
             <li> <a href={"#aboutSection"} style={{ textDecoration: "none", color: "white", transition: "" }}>About</a></li>
-            <li>Projects</li>
+            <li> <a href={"#projects"} style={{ textDecoration: "none", color: "white", transition: "" }}>Projects</a></li>
             <li> <a href={"#skillSection"} style={{ textDecoration: "none", color: "white", transition: "" }}>Skills</a></li>
             <li> <a href={"#contactSection"} style={{ textDecoration: "none", color: "white", transition: "" }}> Contact </a> </li>
             <li> <a href={"#linkSection"} style={{ textDecoration: "none", color: "white", transition: "" }}> Links </a> </li>

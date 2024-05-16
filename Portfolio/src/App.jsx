@@ -4,7 +4,7 @@ import About_slider from "./About_slider";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Link from "./Link";
-
+import Project from "./Projects";
 
 
 
@@ -15,6 +15,7 @@ function App()
     <NavigationBar/>
     <About/>
     <About_slider/>
+    <Project/>
     <Skills/>
     <Contact/>
     <Link/>

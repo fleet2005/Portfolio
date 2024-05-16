@@ -29,7 +29,7 @@ function Skills()
 
 
     return(
-        <div id="skillSection">
+        <div id="skillSection" style={{marginTop:"-60vw"}}> 
         <h1 id= "SKILLS" style={{color:"white", marginTop:"68vw", textAlign:"center", outlineStyle:"solid", outlineColor:"cyan", outlineOffset:"0.3vw" , width:"auto"}}> {text} </h1>
             <h6 style={{textAlign:"center"}}>(Kindly Hover over the Icons)</h6>
             <div class="grid-container">
