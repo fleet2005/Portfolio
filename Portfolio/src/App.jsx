@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import Link from "./Link";
 import Project from "./Projects";
 import Work from "./Work";
-
+import Awards from "./Awards";
 
 
 function App()
@@ -19,6 +19,7 @@ function App()
     <Work/>
     <Project/>
     <Skills/>
+    <Awards/>
     <Contact/>
     <Link/>
     </>
