@@ -40,11 +40,17 @@ function Skills()
                 <div class="grid-item" onMouseOver = {()=>change("NODE")} onMouseLeave ={remove} style={{ backgroundImage: `url(${node})`, backgroundSize: 'cover' }}></div>
                 <div class="grid-item" onMouseOver = {()=>change("EXPRESS")} onMouseLeave ={remove} style={{ backgroundImage: `url(${express})`, backgroundSize: 'cover' }}></div>
                 <div class="grid-item" onMouseOver = {()=>change("PHP")} onMouseLeave ={remove} style={{ backgroundImage: `url(${php})`, backgroundSize: 'cover' }}></div>
-                <div class="grid-item" onMouseOver = {()=>change("MONGO")} onMouseLeave ={remove} style={{ backgroundImage: `url(${mongo})`, backgroundSize: 'cover' }}></div>
+                <div class="grid-item" onMouseOver = {()=>change("MONGO DB")} onMouseLeave ={remove} style={{ backgroundImage: `url(${mongo})`, backgroundSize: 'cover' }}></div>
                 <div class="grid-item" onMouseOver = {()=>change("SQL")} onMouseLeave ={remove} style={{ backgroundImage: `url(${sql})`, backgroundSize: 'cover' }}></div>
                 <div class="grid-item" onMouseOver = {()=>change("GIT")} onMouseLeave ={remove} style={{ backgroundImage: `url(${git})`, backgroundSize: 'cover' }}></div>
                 <div class="grid-item" onMouseOver = {()=>change("C++")} onMouseLeave ={remove} style={{ backgroundImage: `url(${cplus})`, backgroundSize: 'cover' }}></div>
                 <div class="grid-item" onMouseOver = {()=>change("PYTHON")} onMouseLeave ={remove} style={{ backgroundImage: `url(${python})`, backgroundSize: 'cover' }}></div>
+                <div class="grid-item" onMouseOver = {()=>change("DJANGO")} onMouseLeave ={remove} style={{ backgroundImage: `url(${python})`, backgroundSize: 'cover' }}></div>
+                <div class="grid-item" onMouseOver = {()=>change("STREAMLIT")} onMouseLeave ={remove} style={{ backgroundImage: `url(${python})`, backgroundSize: 'cover' }}></div>
+                <div class="grid-item" onMouseOver = {()=>change("MS WORD")} onMouseLeave ={remove} style={{ backgroundImage: `url(${python})`, backgroundSize: 'cover' }}></div>
+                <div class="grid-item" onMouseOver = {()=>change("MS POWERPOINT")} onMouseLeave ={remove} style={{ backgroundImage: `url(${python})`, backgroundSize: 'cover' }}></div>
+                <div class="grid-item" onMouseOver = {()=>change("MS EXCEL")} onMouseLeave ={remove} style={{ backgroundImage: `url(${python})`, backgroundSize: 'cover' }}></div>
+                <div class="grid-item" onMouseOver = {()=>change("GITHUB")} onMouseLeave ={remove} style={{ backgroundImage: `url(${python})`, backgroundSize: 'cover' }}></div>
             </div>
         </div>
     );
