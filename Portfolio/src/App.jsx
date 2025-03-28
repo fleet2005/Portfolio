@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import Link from "./Link";
 import Project from "./Projects";
+import Work from "./Work";
 
 
 
@@ -15,6 +16,7 @@ function App()
     <NavigationBar/>
     <About/>
     <About_slider/>
+    <Work/>
     <Project/>
     <Skills/>
     <Contact/>
