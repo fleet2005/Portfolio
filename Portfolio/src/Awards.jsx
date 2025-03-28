@@ -2,13 +2,13 @@ import React from "react";
 
 function Awards() {
   return (
-    <div
+    <div id = "awardsSection"
       style={{
         backgroundColor: "cyan",
         padding: "0.7rem", // Further reduced padding by 30%
         borderRadius: "3px", // Reduced border radius for better proportions
         animation: "pulse 3s ease-in-out infinite",
-        marginTop: "17vw",
+        marginTop: "20vw",
         marginBottom : "-2vw",
       }}
     >

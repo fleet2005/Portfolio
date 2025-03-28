@@ -17,7 +17,7 @@ function NavigationBar() {
             <li> <a href={"#workSection"} style={{ textDecoration: "none", color: "white", transition: "" }}>Work Experience</a></li>
             <li> <a href={"#projects"} style={{ textDecoration: "none", color: "white", transition: "" }}>Projects</a></li>
             <li> <a href={"#skillSection"} style={{ textDecoration: "none", color: "white", transition: "" }}>Skills</a></li>
-            <li> <a href={"#awards"} style={{ textDecoration: "none", color: "white", transition: "" }}>Awards</a></li>
+            <li> <a href={"#awardsSection"} style={{ textDecoration: "none", color: "white", transition: "" }}>Awards</a></li>
             <li> <a href={"#contactSection"} style={{ textDecoration: "none", color: "white", transition: "" }}> Contact </a> </li>
             <li style={{ marginRight: "1.3vw", marginTop: "-0.5vw" }} onClick={refresh}><img src={refreshIcon} style={{ width: "3.5vw", height: "3.5vw" }} /></li>
         </ul>

@@ -4,7 +4,7 @@ import pg1 from "./assets/repsoft.png"
 
 function Work() {
   return (
-    <div id="work" style={{ fontFamily: "Arial, sans-serif", color: "white", marginTop: "65vw", marginBottom: "-65vw" }}>
+    <div id="workSection" style={{ fontFamily: "Arial, sans-serif", color: "white", marginTop: "65vw", marginBottom: "-65vw" }}>
       <br />
       <h1 style={{ textAlign: "center", color: "white" }}>💼 WORK EXPERIENCE 💼</h1>
       <br /><br />
