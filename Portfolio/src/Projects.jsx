@@ -11,10 +11,10 @@ function Project() {
       <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{fontSize: "2.2vw"}}>
-            <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>HealthApp- MERN</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
-            HealthApp which I made with MERN Stack, has a login page, uses multiple APIs, uses extensive bootstrap, uses ExpressJS for routing and a MongoDB database for authentication details updation and retrieval.
+            <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>HealthApp</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
+            Dynamic Application which tracks calories gained and burned by eating and exercising, calculates BMI and implements Markov model for next food prediction. MongoDB is used for data storage and data is secured with BCrypt and JWT. Comes with a chatbot to assist users.
             <br/><br/>
-            Made With ReactJS, NodeJS, ExpressJS, MongoDB, BootStrap, JS, CSS, HTML and lots of passion.
+            Made With ReactJS, Django, MongoDB, NodeJS, ExpressJS, CSS, HTML.
             <br />
           </p>
         </div>
@@ -24,7 +24,106 @@ function Project() {
           </div>
         </div>
       </div>
-      <br/>
+      <br/><br/>
+
+
+      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
+        <div style={{ flex: 1, marginTop: "-3vw" }}>
+          <p style={{fontSize: "2.2vw"}}>
+            <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>NavPath Algorithm</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
+            Combines A* Algorithm with XGBoost ML Algorithm to find Optimal Ship Route for both cargo and passenger ships. Takes geospatial bathymetry data to account for ocean depth. Parameters include Wind Direction, Ocean Current, Peak wave period, Precipitation Probability, Temperature, Sea Level Pressure.
+            <br/><br/>
+            Made With  Python, Pygame, Pandas, NumPY.
+            <br />
+          </p>
+        </div>
+        <div style={{ flex: 1, marginLeft: 20 }}>
+          <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
+            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
+          </div>
+        </div>
+      </div>
+      <br/><br/>
+
+
+      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
+        <div style={{ flex: 1, marginTop: "-3vw" }}>
+          <p style={{fontSize: "2.2vw"}}>
+            <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>CopyPaste Pro</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
+            New Additions to copy-paste functionality by adding multiple data structures and key mappings to enhance user experience. Published on the VS Code extension marketplace. Supports customizable shortcuts for seamless use and workflow integration.
+            <br/><br/>
+            Made With Javascript.
+            <br />
+          </p>
+        </div>
+        <div style={{ flex: 1, marginLeft: 20 }}>
+          <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
+            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
+          </div>
+        </div>
+      </div>
+      <br/><br/>
+
+
+      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
+        <div style={{ flex: 1, marginTop: "-3vw" }}>
+          <p style={{fontSize: "2.2vw"}}>
+            <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>Agrisense</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
+            Al Solutions for Smallholder Farmers which includes Disease Detection, Resource Optimization, Early
+warnings for disease outbreaks, Real-time soil analysis and recommendations, Weather Insights, IoT data
+Integration, Hyperspectral imaging.
+            <br/><br/>
+            Made With Streamlit, Firebase, TensorFlow, PyTorch, OpenWeatherMap, Node-Red
+            <br />
+          </p>
+        </div>
+        <div style={{ flex: 1, marginLeft: 20 }}>
+          <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
+            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
+          </div>
+        </div>
+      </div>
+      <br/><br/>
+
+
+      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
+        <div style={{ flex: 1, marginTop: "-3vw" }}>
+          <p style={{fontSize: "2.2vw"}}>
+            <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>EnergySense</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
+            AI Powered Unified Platform for Renewable Energy Management which includes Renewable Energy
+Forecasting, IoT Alert System, Smart Grid Energy Allocation, Turbine Thermal Defect Detection, Energy
+Partnership Policy, Telegram Bot, Email OTP Authorisation            <br/><br/>
+            Made With Streamlit, Firebase, Matplotlib, OpenCV, Yagmail, Node-Red
+            <br />
+          </p>
+        </div>
+        <div style={{ flex: 1, marginLeft: 20 }}>
+          <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
+            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
+          </div>
+        </div>
+      </div>
+      <br/><br/>
+
+
+      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
+        <div style={{ flex: 1, marginTop: "-3vw" }}>
+          <p style={{fontSize: "2.2vw"}}>
+            <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>Command Line Tool for Encryption and
+            Decryption of Text Files</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
+            A free, simple and offline tool which supports multiple encryption algorithms including caesar cipher, vignere cipher and a hybrid encryption algorithm. Also comes with a password strength checker and help manual.  
+            <br />
+          </p>
+        </div>
+        <div style={{ flex: 1, marginLeft: 20 }}>
+          <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
+            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
+          </div>
+        </div>
+      </div>
+      <br/><br/>
+
+      
       <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start", marginTop: 20 }}>
         <div style={{ flex: 1 }}>
           <p style={{fontSize:"2.2vw"}}>
