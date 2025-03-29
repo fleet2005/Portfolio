@@ -1,6 +1,10 @@
 import React from "react";
-import pg1 from "./assets/pg1.png";
-import pg2 from "./assets/pg2.png";
+import Portfolio from "./assets/portfolio.png";
+import Health from "./assets/Health.png";
+import Ship from "./assets/Ship.png";
+import Agri from "./assets/Agri.png";
+import Encry from "./assets/Encry.png"
+import Exte from "./assets/Exte.png";
 
 function Project() {
   return (
@@ -20,7 +24,7 @@ function Project() {
         </div>
         <div style={{ flex: 1, marginLeft: 20 }}>
           <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
-            <img src={pg2} style={{ width: "auto", height: "32vw", maxWidth: "48vw" }} alt="Project 1" />
+            <img src={Health} style={{ width: "auto", height: "32vw", maxWidth: "48vw" }} alt="Project 1" />
           </div>
         </div>
       </div>
@@ -39,7 +43,7 @@ function Project() {
         </div>
         <div style={{ flex: 1, marginLeft: 20 }}>
           <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
-            <img src={pg2} style={{ width: "auto", height: "30vw", maxWidth: "48vw" }} alt="Project 1" />
+            <img src={Ship} style={{ width: "auto", height: "30vw", maxWidth: "48vw" }} alt="Project 1" />
           </div>
         </div>
       </div>
@@ -58,7 +62,7 @@ function Project() {
         </div>
         <div style={{ flex: 1, marginLeft: 20 }}>
           <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
-            <img src={pg2} style={{ width: "auto", height: "28vw", maxWidth: "48vw" }} alt="Project 1" />
+            <img src={Exte} style={{ width: "auto", height: "28vw", maxWidth: "48vw" }} alt="Project 1" />
           </div>
         </div>
       </div>
@@ -79,7 +83,7 @@ Integration, Hyperspectral imaging and Email Authentication and Response Collect
         </div>
         <div style={{ flex: 1, marginLeft: 20 }}>
           <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
-            <img src={pg2} style={{ width: "auto", height: "32vw", maxWidth: "48vw" }} alt="Project 1" />
+            <img src={Agri} style={{ width: "auto", height: "32vw", maxWidth: "48vw" }} alt="Project 1" />
           </div>
         </div>
       </div>
@@ -98,7 +102,7 @@ Integration, Hyperspectral imaging and Email Authentication and Response Collect
         </div>
         <div style={{ flex: 1, marginLeft: 20 }}>
           <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
-            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
+            <img src={Encry} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
           </div>
         </div>
       </div>
@@ -118,7 +122,7 @@ Integration, Hyperspectral imaging and Email Authentication and Response Collect
         </div>
         <div style={{ flex: 1, marginLeft: 20 }}>
           <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" , marginTop: "3vw"}}>
-            <img src={pg1} style={{ width: "100%", height: "120%", maxHeight: "45vw" }} alt="Project 2" />
+            <img src={Portfolio} style={{ width: "100%", height: "120%", maxHeight: "45vw" }} alt="Project 2" />
           </div>
         </div>
       </div>
