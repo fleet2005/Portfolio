@@ -12,7 +12,7 @@ function Project() {
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{fontSize: "2.2vw"}}>
             <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>HealthApp</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
-            Dynamic Application which tracks calories gained and burned by eating and exercising, calculates BMI and implements Markov model for next food prediction. MongoDB is used for data storage and data is secured with BCrypt and JWT. Comes with a chatbot to assist users.
+            Dynamic Application which tracks calories gained and burned by eating and exercising, calculates BMI and implements Markov model for next food prediction. MongoDB is used for data storage and data is secured with BCrypt and JWT. Chatbot has been integrated to assist users with health queries.
             <br/><br/>
             Made With ReactJS, Django, MongoDB, NodeJS, ExpressJS, CSS, HTML.
             <br />
@@ -20,7 +20,7 @@ function Project() {
         </div>
         <div style={{ flex: 1, marginLeft: 20 }}>
           <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
-            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
+            <img src={pg2} style={{ width: "auto", height: "32vw", maxWidth: "48vw" }} alt="Project 1" />
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@ function Project() {
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{fontSize: "2.2vw"}}>
             <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>NavPath Algorithm</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
-            Combines A* Algorithm with XGBoost ML Algorithm to find Optimal Ship Route for both cargo and passenger ships. Takes geospatial bathymetry data to account for ocean depth. Parameters include Wind Direction, Ocean Current, Peak wave period, Precipitation Probability, Temperature, Sea Level Pressure.
+            Combines A* Algorithm with XGBoost ML Algorithm to find Optimal Ship Route for both cargo and passenger ships. Takes geospatial bathymetry data to account for ocean depth. Parameters considered include Wind Direction, Ocean Current, Peak wave period, Precipitation Probability, Temperature, Sea Level Pressure.
             <br/><br/>
             Made With  Python, Pygame, Pandas, NumPY.
             <br />
@@ -39,7 +39,7 @@ function Project() {
         </div>
         <div style={{ flex: 1, marginLeft: 20 }}>
           <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
-            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
+            <img src={pg2} style={{ width: "auto", height: "30vw", maxWidth: "48vw" }} alt="Project 1" />
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@ function Project() {
         </div>
         <div style={{ flex: 1, marginLeft: 20 }}>
           <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
-            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
+            <img src={pg2} style={{ width: "auto", height: "28vw", maxWidth: "48vw" }} alt="Project 1" />
           </div>
         </div>
       </div>
@@ -69,41 +69,22 @@ function Project() {
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{fontSize: "2.2vw"}}>
             <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>Agrisense</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
-            Al Solutions for Smallholder Farmers which includes Disease Detection, Resource Optimization, Early
+            Al Solutions for Smallholder Farmers which includes Disease Detection from images, Resource Optimization, Early
 warnings for disease outbreaks, Real-time soil analysis and recommendations, Weather Insights, IoT data
-Integration, Hyperspectral imaging.
+Integration, Hyperspectral imaging and Email Authentication and Response Collection.
             <br/><br/>
-            Made With Streamlit, Firebase, TensorFlow, PyTorch, OpenWeatherMap, Node-Red
+            Made With Streamlit, Firebase, TensorFlow, OpenWeatherMap, Node-Red, YagMail
             <br />
           </p>
         </div>
         <div style={{ flex: 1, marginLeft: 20 }}>
           <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
-            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
+            <img src={pg2} style={{ width: "auto", height: "32vw", maxWidth: "48vw" }} alt="Project 1" />
           </div>
         </div>
       </div>
       <br/><br/>
 
-
-      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
-        <div style={{ flex: 1, marginTop: "-3vw" }}>
-          <p style={{fontSize: "2.2vw"}}>
-            <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>EnergySense</a> <br /><a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>https://tinyurl.com/regispagevishal</a><br /><br />
-            AI Powered Unified Platform for Renewable Energy Management which includes Renewable Energy
-Forecasting, IoT Alert System, Smart Grid Energy Allocation, Turbine Thermal Defect Detection, Energy
-Partnership Policy, Telegram Bot, Email OTP Authorisation            <br/><br/>
-            Made With Streamlit, Firebase, Matplotlib, OpenCV, Yagmail, Node-Red
-            <br />
-          </p>
-        </div>
-        <div style={{ flex: 1, marginLeft: 20 }}>
-          <div style={{ border: "3px solid white", borderRadius: "5px", padding: "5px" }}>
-            <img src={pg2} style={{ width: "auto", height: "29vw", maxWidth: "48vw" }} alt="Project 1" />
-          </div>
-        </div>
-      </div>
-      <br/><br/>
 
 
       <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
