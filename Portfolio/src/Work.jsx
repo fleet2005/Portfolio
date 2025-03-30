@@ -12,12 +12,12 @@ function Work() {
       <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{ fontSize: "2.2vw" }}>
-            <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color: "white", fontWeight: "bolder", fontSize: "4vw" }}>
-              Backend Development Intern
+            <a href="https://www.linkedin.com/company/activepresence-orbol-group/" target="_new" style={{ textDecoration: "none", color: "white", fontWeight: "bolder", fontSize: "3.2vw" }}>
+              Backend Development Intern, Orbol Co
             </a> 
             <br />
-            <a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily: "monospace", fontSize: "1.6vw", textDecoration: "none", color: "rgb(138,43,226)" }}>
-              https://tinyurl.com/regispagevishal
+            <a target="_new" href="https://www.linkedin.com/company/activepresence-orbol-group/" style={{ fontFamily: "monospace", fontSize: "1.6vw", textDecoration: "none", color: "rgb(138,43,226)" }}>
+              Link
             </a>
             <br /><br />
             • Developed a MERN web application with a fully functional frontend and backend, utilizing CDN for storage to reduce page loading time by up to 70%. Designed and optimized database schemas for efficient data organization and retrieval.
@@ -48,12 +48,12 @@ function Work() {
       <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{ fontSize: "2.2vw" }}>
-            <a href="https://tinyurl.com/regispagevishal" target="_new" style={{ textDecoration: "none", color: "white", fontWeight: "bolder", fontSize: "4vw" }}>
-              Backend Development Intern
+            <a href="https://www.linkedin.com/company/repsoft-consultancy-services-private-limited/posts/?feedView=all" target="_new" style={{ textDecoration: "none", color: "white", fontWeight: "bolder", fontSize: "3.2vw" }}>
+              Backend Development Intern, Repsoft Ltd
             </a> 
             <br />
-            <a target="_new" href="https://tinyurl.com/regispagevishal" style={{ fontFamily: "monospace", fontSize: "1.6vw", textDecoration: "none", color: "rgb(138,43,226)" }}>
-              https://tinyurl.com/regispagevishal
+            <a target="_new" href="https://www.linkedin.com/company/repsoft-consultancy-services-private-limited/posts/?feedView=all" style={{ fontFamily: "monospace", fontSize: "1.6vw", textDecoration: "none", color: "rgb(138,43,226)" }}>
+              Link
             </a>
             <br /><br />
             • Developed optimised backend for Admin Panel to enable dynamic modification of web-page by
