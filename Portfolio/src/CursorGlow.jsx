@@ -10,31 +10,45 @@ function CursorGlow() {
       setCursorPosition({ x: e.clientX, y: e.clientY });
     };
 
-    const handleMouseEnter = () => setIsHovering(true);
-    const handleMouseLeave = () => setIsHovering(false);
+    const handleMouseEnter = (e) => {
+      // Check if the target is an interactive element
+      const interactiveElements = ['a', 'button', '.grid-item', '.card_container div', '.circle', '.arrow', '.resume-download-btn'];
+      const isInteractive = interactiveElements.some(selector => {
+        if (selector.startsWith('.')) {
+          return e.target.classList.contains(selector.substring(1));
+        }
+        return e.target.tagName.toLowerCase() === selector;
+      });
+      
+      if (isInteractive) {
+        setIsHovering(true);
+      }
+    };
+
+    const handleMouseLeave = (e) => {
+      // Check if we're leaving an interactive element
+      const interactiveElements = ['a', 'button', '.grid-item', '.card_container div', '.circle', '.arrow', '.resume-download-btn'];
+      const isInteractive = interactiveElements.some(selector => {
+        if (selector.startsWith('.')) {
+          return e.target.classList.contains(selector.substring(1));
+        }
+        return e.target.tagName.toLowerCase() === selector;
+      });
+      
+      if (isInteractive) {
+        setIsHovering(false);
+      }
+    };
 
     // Add event listeners
     document.addEventListener('mousemove', updateCursorPosition);
-    document.addEventListener('mouseenter', handleMouseEnter);
-    document.addEventListener('mouseleave', handleMouseLeave);
-
-    // Add hover listeners for interactive elements
-    const interactiveElements = document.querySelectorAll('a, button, .grid-item, .card_container div, .circle, .arrow');
-    
-    interactiveElements.forEach(element => {
-      element.addEventListener('mouseenter', () => setIsHovering(true));
-      element.addEventListener('mouseleave', () => setIsHovering(false));
-    });
+    document.addEventListener('mouseover', handleMouseEnter);
+    document.addEventListener('mouseout', handleMouseLeave);
 
     return () => {
       document.removeEventListener('mousemove', updateCursorPosition);
-      document.removeEventListener('mouseenter', handleMouseEnter);
-      document.removeEventListener('mouseleave', handleMouseLeave);
-      
-      interactiveElements.forEach(element => {
-        element.removeEventListener('mouseenter', () => setIsHovering(true));
-        element.removeEventListener('mouseleave', () => setIsHovering(false));
-      });
+      document.removeEventListener('mouseover', handleMouseEnter);
+      document.removeEventListener('mouseout', handleMouseLeave);
     };
   }, []);
 
