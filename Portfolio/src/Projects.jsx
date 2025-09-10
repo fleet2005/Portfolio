@@ -5,14 +5,23 @@ import Ship from "./assets/Ship.png";
 import Agri from "./assets/Agri.png";
 import Encry from "./assets/Encry.png"
 import Exte from "./assets/Exte.png";
+import useScrollAnimation from "./useScrollAnimation";
 
 function Project() {
+  const projectsRef = useScrollAnimation();
+  const healthAppRef = useScrollAnimation();
+  const shipAppRef = useScrollAnimation();
+  const agriAppRef = useScrollAnimation();
+  const encryAppRef = useScrollAnimation();
+  const exteAppRef = useScrollAnimation();
+  const portfolioRef = useScrollAnimation();
+
   return (
     <div id="projects" style={{ fontFamily: "Arial, sans-serif", color: "white", marginTop: "65vw" }}><br/>
-        <h1 style={{textAlign:"center", color:"white"}}>🔭PROJECTS🧑‍🎓</h1><br/><br/>
+        <h1 className="scroll-fade-in" ref={projectsRef} style={{textAlign:"center", color:"white"}}>🔭PROJECTS🧑‍🎓</h1><br/><br/>
 
 
-      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
+      <div className="scroll-slide-left" ref={healthAppRef} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{fontSize: "2.2vw"}}>
             <a href="https://health-app-version2-ke87.vercel.app/" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>HealthApp</a> <br /><a target="_new" href="https://health-app-version2-ke87.vercel.app/" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>Link</a><br /><br />
@@ -31,7 +40,7 @@ function Project() {
       <br/><br/>
 
 
-      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
+      <div className="scroll-slide-right" ref={shipAppRef} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{fontSize: "2.2vw"}}>
             <a href="https://github.com/fleet2005/SIH" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>NavPath Algorithm</a> <br /><a target="_new" href="https://github.com/fleet2005/SIH" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>Link</a><br /><br />
@@ -50,7 +59,7 @@ function Project() {
       <br/><br/>
 
 
-      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
+      <div className="scroll-slide-left" ref={exteAppRef} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{fontSize: "2.2vw"}}>
             <a href="https://marketplace.visualstudio.com/items?itemName=VishalSrinivasan.advanced-copypaste-ext" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>CopyPaste Pro</a> <br /><a target="_new" href="https://marketplace.visualstudio.com/items?itemName=VishalSrinivasan.advanced-copypaste-ext" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>Link</a><br /><br />
@@ -69,7 +78,7 @@ function Project() {
       <br/><br/>
 
 
-      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
+      <div className="scroll-slide-right" ref={agriAppRef} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{fontSize: "2.2vw"}}>
             <a href="https://agrisense-kffgzvvhbsq5lbmmewpzks.streamlit.app/" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>Agrisense</a> <br /><a target="_new" href="https://agrisense-kffgzvvhbsq5lbmmewpzks.streamlit.app/" style={{ fontFamily:"monospace", fontSize: "1.6vw", textDecoration: "none", color:"rgb(138,43,226)"}}>Link</a><br /><br />
@@ -91,7 +100,7 @@ Integration, Hyperspectral imaging and Email Authentication and Response Collect
 
 
 
-      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
+      <div className="scroll-slide-left" ref={encryAppRef} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
         <div style={{ flex: 1, marginTop: "-3vw" }}>
           <p style={{fontSize: "2.2vw"}}>
             <a href="https://github.com/fleet2005/CPP-Advanced-File-Encrypter" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw"}}>Command Line Tool for Encryption and
@@ -109,7 +118,7 @@ Integration, Hyperspectral imaging and Email Authentication and Response Collect
       <br/><br/>
 
       
-      <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start", marginTop: 20 }}>
+      <div className="scroll-fade-in" ref={portfolioRef} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start", marginTop: 20 }}>
         <div style={{ flex: 1 }}>
           <p style={{fontSize:"2.2vw"}}>
             <a href="https://www.tinyurl.com/vishalportfoliowebsite" target="_new" style={{ textDecoration: "none", color:"white", fontWeight:"bolder", fontSize:"4vw" }}>Portfolio Website</a> <br /> <a href="https://www.tinyurl.com/vishalportfoliowebsite" target="_new" style={{ textDecoration: "none", color:"rgb(138,43,226)", fontFamily:"monospace", fontSize:"1.6vw"}}>Link</a><br/>

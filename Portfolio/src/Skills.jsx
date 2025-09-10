@@ -17,11 +17,14 @@ import powerpoint from "./assets/Powerpoint.png"
 import streamlit from "./assets/Streamlit.png"
 import word from "./assets/word.png"
 import { useState } from "react"
+import useScrollAnimation from "./useScrollAnimation"
 
 
 
 function Skills()
 {
+    const skillsRef = useScrollAnimation();
+    const gridRef = useScrollAnimation();
     
     const [text,setText] = useState("SKILLS");
 
@@ -36,9 +39,9 @@ function Skills()
 
     return(
         <div id="skillSection" style={{marginTop:"-60vw"}}> 
-        <h1 id= "SKILLS" style={{color:"white", marginTop:"68vw", textAlign:"center", outlineStyle:"solid", outlineColor:"cyan", outlineOffset:"0.3vw" , width:"auto"}}> {text} </h1>
-            <h6 style={{textAlign:"center"}}>(Kindly Hover over the Icons)</h6>
-            <div class="grid-container">
+        <h1 className="scroll-fade-in" ref={skillsRef} id= "SKILLS" style={{color:"white", marginTop:"68vw", textAlign:"center", outlineStyle:"solid", outlineColor:"cyan", outlineOffset:"0.3vw" , width:"auto"}}> {text} </h1>
+            <h6 className="scroll-fade-in" style={{textAlign:"center"}}>(Kindly Hover over the Icons)</h6>
+            <div className="grid-container scroll-scale-in" ref={gridRef}>
                 <div class="grid-item" onMouseOver = {()=>change("HTML")} onMouseLeave ={remove} style={{ backgroundImage: `url(${html})`, backgroundSize: 'cover' }}></div>
                 <div class="grid-item" onMouseOver = {()=>change("CSS")} onMouseLeave ={remove} style={{ backgroundImage: `url(${css})`, backgroundSize: 'cover' }}></div>
                 <div class="grid-item" onMouseOver = {()=>change("JAVASCRIPT")} onMouseLeave ={remove} style={{ backgroundImage: `url(${js})`, backgroundSize: 'cover' }}></div>
