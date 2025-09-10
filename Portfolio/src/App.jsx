@@ -8,6 +8,7 @@ import Project from "./Projects";
 import Work from "./Work";
 import Awards from "./Awards";
 import CursorGlow from "./CursorGlow";
+import ResumeDownload from "./ResumeDownload";
 
 
 function App()
@@ -24,6 +25,7 @@ function App()
     <Awards/>
     <Contact/>
     <Link/>
+    <ResumeDownload/>
     </>
   );
 }
