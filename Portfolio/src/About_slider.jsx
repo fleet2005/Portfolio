@@ -13,7 +13,6 @@ function About_slider()
             <div class="circle"></div>
             <div class="circle"></div>
             <div class="circle"></div>
-            <div class="circle"></div>
             
             <img src ={arrowIcon} className="arrow"></img> <img src ={arrowIcon} className="arrow"></img>  <img src ={arrowIcon} className="arrow"></img>
             <div class="card_container">

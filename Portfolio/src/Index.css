@@ -101,35 +101,7 @@ body{
   }
 
 
-  .circle:nth-of-type(4){
-    height:1vw;
-    width:2vw;
-    animation: anime1 4s linear infinite alternate;
-}
 
-
-@keyframes anime1{
-
-
-    0%{
-        right: 27.4%;
-        top:56%;
-        background-color:blueviolet;
-    }
-
-
-    50%{
-        background-color:white;
-    }
-
-
-    100%{
-        right: 78%;
-        top:56%;
-        background-color:brown;
-    }
-}
- 
 .arrow{
     position:absolute;
 }
