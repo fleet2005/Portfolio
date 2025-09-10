@@ -1,0 +1,140 @@
+/* Cursor Glow Effects */
+.cursor-glow {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle, rgba(0, 255, 255, 0.8) 0%, rgba(0, 255, 255, 0.4) 50%, transparent 100%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: all 0.1s ease;
+  box-shadow: 
+    0 0 20px rgba(0, 255, 255, 0.6),
+    0 0 40px rgba(0, 255, 255, 0.4),
+    0 0 60px rgba(0, 255, 255, 0.2);
+}
+
+.cursor-glow.hover {
+  width: 40px;
+  height: 40px;
+  background: radial-gradient(circle, rgba(255, 0, 255, 0.9) 0%, rgba(255, 0, 255, 0.5) 50%, transparent 100%);
+  box-shadow: 
+    0 0 30px rgba(255, 0, 255, 0.8),
+    0 0 60px rgba(255, 0, 255, 0.6),
+    0 0 90px rgba(255, 0, 255, 0.4);
+}
+
+.cursor-glow-ring {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgba(0, 255, 255, 0.3);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease;
+  box-shadow: 
+    0 0 20px rgba(0, 255, 255, 0.3),
+    inset 0 0 20px rgba(0, 255, 255, 0.1);
+}
+
+.cursor-glow-ring.hover {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgba(255, 0, 255, 0.5);
+  box-shadow: 
+    0 0 40px rgba(255, 0, 255, 0.5),
+    inset 0 0 40px rgba(255, 0, 255, 0.2);
+}
+
+.cursor-outer-glow {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, transparent 0%, transparent 60%, rgba(0, 255, 255, 0.1) 100%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9997;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.cursor-outer-glow.hover {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, transparent 0%, transparent 60%, rgba(255, 0, 255, 0.15) 100%);
+}
+
+/* Hide default cursor */
+* {
+  cursor: none !important;
+}
+
+/* Show cursor on interactive elements */
+a, button, .grid-item, .card_container div, .circle, .arrow, input, textarea, select {
+  cursor: none !important;
+}
+
+/* Mobile responsiveness - hide cursor effects on touch devices */
+@media (max-width: 768px) {
+  .cursor-glow,
+  .cursor-glow-ring,
+  .cursor-outer-glow {
+    display: none;
+  }
+  
+  * {
+    cursor: auto !important;
+  }
+}
+
+/* Animation for pulsing effect */
+@keyframes cursorPulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}
+
+.cursor-glow {
+  animation: cursorPulse 2s ease-in-out infinite;
+}
+
+.cursor-glow.hover {
+  animation: none;
+}
+
+/* Additional glow effects for different elements */
+.cursor-glow.hover::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, rgba(255, 0, 255, 0.2) 0%, transparent 70%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: ripple 1s ease-out infinite;
+}
+
+@keyframes ripple {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+  }
+}

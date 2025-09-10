@@ -7,12 +7,14 @@ import Link from "./Link";
 import Project from "./Projects";
 import Work from "./Work";
 import Awards from "./Awards";
+import CursorGlow from "./CursorGlow";
 
 
 function App()
 {
   return(
     <>
+    <CursorGlow/>
     <NavigationBar/>
     <About/>
     <About_slider/>
