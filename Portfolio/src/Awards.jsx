@@ -71,9 +71,13 @@ function Awards() {
               </li>
               <br />
               <li>
-                🎖 <strong>Software Testing</strong> – National Topper (Top 5 percentile)
+                🎖 <strong>Software Testing -NPTEL</strong> – National Topper (Top 5 percentile)
               </li>
               <br />
+              <li>
+                🎖 <strong>Data Analytics -NPTEL</strong> – National Topper (Top 5 percentile)
+              </li>
+              <br/>
               <li>
                 📊 <strong>Introduction to Data Science</strong> – Certified by IIIT Bangalore, IBM &
                 Coursera
@@ -84,7 +88,7 @@ function Awards() {
           {/* Debate & Public Speaking */}
           <div style={{ flex: 1 }}>
             <h2 style={{ borderBottom: "2px solid limegreen", paddingBottom: "0.5rem" }}>
-              Public Speaking
+              Leadership
             </h2>
             <ul style={{ listStyle: "none", paddingLeft: "0", fontSize: "1.2rem" }}>
               <li>
@@ -98,6 +102,10 @@ function Awards() {
               <li>
                 🎙 <strong>1x Director</strong> in MUN conference (UNEA)
               </li>
+              <br />
+              <li>
+                🎙 <strong> Lead Organizer of the Competitive Programming Contest at IIITM’24, attended by 750+ people</strong>
+              </li>              
             </ul>
           </div>
         </div>
